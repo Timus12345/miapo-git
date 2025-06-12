@@ -10,7 +10,7 @@ void main() async {
     routes: {
       '/': (context) => const login_screen(),
       '/profile': (context) => const profile_screen(),
-      '/settings': (context) => const settings_screen()
+      '/settings': (context) => const settings_screen() //ыыы ошибку давай да
     },
   ));
 }
