@@ -9,6 +9,8 @@ void main() async {
     routes: {
       '/': (context) => const login_screen(),
       '/profile': (context) => const profile_screen(),
+
+      '/': (context) => const login_screen(),
     },
   ));
 }
